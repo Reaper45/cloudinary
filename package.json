@@ -1,0 +1,32 @@
+{
+  "name": "cloudinary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reaper45/cloudinary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Reaper45/cloudinary/issues"
+  },
+  "homepage": "https://github.com/Reaper45/cloudinary#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "dotenv": "^8.2.0",
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "node-fetch": "^2.6.0"
+  }
+}
